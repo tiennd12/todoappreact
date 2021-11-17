@@ -1,7 +1,7 @@
 import React from "react";
 import Todo from "./Todo";
 
-export const TodoList = ({ todos, setTodos, filteredTodos, filterHandler }) => {
+export const TodoList = ({ todos, setTodos, filteredTodos }) => {
   return (
     <div className="todo-container">
       <ul className="todo-list">
